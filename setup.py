@@ -22,5 +22,6 @@ setup(
     author='Kushal Kolar',
     author_email='',
     description='An interface for lazy evaluation of tensors in linear algebra routines',
-    long_description=readme
+    long_description=readme,
+    include_package_data=True,
 )
